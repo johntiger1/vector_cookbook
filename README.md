@@ -1,4 +1,7 @@
 # vector_cookbook
+
+In general, to get it working, first, make sure it works on srun. Then, move it to the sbatch script! But there were some waysof checking the output log of the sbatch, and seeing the output file. sbatch.out for instance!
+
 Collection of tips and resources useful for running things on Vector servers
 
 
