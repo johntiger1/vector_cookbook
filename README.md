@@ -2,6 +2,8 @@
 
 In general, to get it working, first, make sure it works on srun. Then, move it to the sbatch script! But there were some waysof checking the output log of the sbatch, and seeing the output file. sbatch.out for instance!
 
+1. when you run sbatch, then you will get an sbatch.out file where you ran it
+
 Collection of tips and resources useful for running things on Vector servers
 
 
@@ -10,3 +12,4 @@ https://github.com/johntiger1/csc2547-project/blob/3d79547d0b4a66ab1148bf30c2176
 
 
 OK, so we need to configure the pycharm directory correctly. Probably an $__init__$, or adding a correct import, or correct path append somewhere! 
+
