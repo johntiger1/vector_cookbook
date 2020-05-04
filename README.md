@@ -2,6 +2,10 @@
 
 The most important link is the wiki: https://support.vectorinstitute.ai/
 
+# List of Useful Packages
+- nvidia-smi
+- ncdu
+- ...
 In general, to get it working, first, make sure it works on srun. Then, move it to the sbatch script! But there were some waysof checking the output log of the sbatch, and seeing the output file. sbatch.out for instance!
 
 1. when you run sbatch, then you will get an sbatch.out file where you ran it
