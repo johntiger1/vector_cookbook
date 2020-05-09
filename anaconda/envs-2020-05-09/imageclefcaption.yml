@@ -1,0 +1,63 @@
+name: imageclefcaption
+channels:
+  - pytorch
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas=0.24.2=py37ha925a31_0
+  - pytz=2019.1=py_0
+  - vc=14.1=h21ff451_3
+  - vs2015_runtime=15.5.2=3
+  - cloudpickle=0.8.1=py_0
+  - cycler=0.10.0=py_1
+  - cytoolz=0.9.0.1=py37hfa6e2cd_1001
+  - dask-core=1.2.1=py_0
+  - decorator=4.4.0=py_0
+  - freetype=2.10.0=h5db478b_0
+  - imageio=2.5.0=py37_0
+  - jpeg=9c=hfa6e2cd_1001
+  - kiwisolver=1.1.0=py37he980bc4_0
+  - libpng=1.6.37=h7602738_0
+  - libtiff=4.0.10=h36446d0_1001
+  - matplotlib-base=3.0.3=py37h3e3dc42_1
+  - networkx=2.3=py_0
+  - olefile=0.46=py_0
+  - pillow=6.0.0=py37h9a613e6_0
+  - pyparsing=2.4.0=py_0
+  - python-dateutil=2.8.0=py_0
+  - pywavelets=1.0.3=py37h452e1ab_1
+  - scikit-image=0.15.0=py37h6538335_0
+  - six=1.12.0=py37_1000
+  - tk=8.6.9=hfa6e2cd_1001
+  - toolz=0.9.0=py_1
+  - tornado=6.0.2=py37hfa6e2cd_0
+  - zlib=1.2.11=h2fa13f4_1004
+  - blas=1.0=mkl
+  - ca-certificates=2019.1.23=0
+  - certifi=2019.3.9=py37_0
+  - cffi=1.12.3=py37h7a1dbc1_0
+  - cudatoolkit=10.0.130=0
+  - icc_rt=2019.0.0=h0cc432a_1
+  - intel-openmp=2019.3=203
+  - mkl=2019.3=203
+  - mkl_fft=1.0.12=py37h14836fe_0
+  - mkl_random=1.0.2=py37h343c172_0
+  - ninja=1.9.0=py37h74a9793_0
+  - numpy=1.16.3=py37h19fb1c0_0
+  - numpy-base=1.16.3=py37hc3f5095_0
+  - openssl=1.1.1b=he774522_1
+  - pip=19.1=py37_0
+  - pycparser=2.19=py37_0
+  - python=3.7.3=h8c8aaf0_1
+  - scikit-learn=0.20.3=py37h343c172_0
+  - scipy=1.2.1=py37h29ff71c_0
+  - setuptools=41.0.1=py37_0
+  - sqlite=3.28.0=he774522_0
+  - tqdm=4.31.1=py37_1
+  - wheel=0.33.1=py37_0
+  - wincertstore=0.2=py37_0
+  - pytorch=1.1.0=py3.7_cuda100_cudnn7_1
+  - torchvision=0.2.2=py_3
+prefix: C:\ProgramData\Anaconda3\envs\imageclefcaption
+
