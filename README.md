@@ -2,6 +2,10 @@
 
 The most important link is the wiki: https://support.vectorinstitute.ai/
 
+##
+A discussion on keeping vaughan synced with mars
+https://vectorinstitute.slack.com/archives/CAJ6QCM9C/p1589377802240700
+
 # List of Useful Packages
 - htop
 - gpustat -i
