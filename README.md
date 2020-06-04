@@ -12,6 +12,7 @@ https://vectorinstitute.slack.com/archives/CAJ6QCM9C/p1589377802240700
 - nvidia-smi
 - ncdu
 - ctrl alt del (task manager)
+- xclip
 - ...
 In general, to get it working, first, make sure it works on srun. Then, move it to the sbatch script! But there were some waysof checking the output log of the sbatch, and seeing the output file. sbatch.out for instance!
 
