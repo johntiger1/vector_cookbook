@@ -15,7 +15,8 @@ Things are whitespace sensitive, make sure you are precise.
 2. [ ] is a conditional expression (evaluation). Returns true or false
 
 2a) we can do if [[ 1==0 ]] && echo my first command || echo second branch of ternary 
-
+`[[ 1 == 0 ]]` => evaluates to False
+`[[1 == 0]]`  => evaluates to True (this is just checking the expression is not null)
 as a ternary 
 
 ##
