@@ -2,6 +2,22 @@
 
 The most important link is the wiki: https://support.vectorinstitute.ai/
 
+# Shell commands:
+1. Eval is used to evaluate expressions. Essentially, allows dynamic code parsing (and then execution)
+
+$fooname=100 $fooval=100
+Ex. eval "$fooname = \$fooval" 
+
+This allows us to dynamically set a variable $fooname using a dynamic variable $fooval
+
+Things are whitespace sensitive, make sure you are precise.
+
+2. [ ] is a conditional expression (evaluation). Returns true or false
+
+2a) we can do if [[ 1==0 ]] && echo my first command || echo second branch of ternary 
+
+as a ternary 
+
 ##
 A discussion on keeping vaughan synced with mars
 https://vectorinstitute.slack.com/archives/CAJ6QCM9C/p1589377802240700
