@@ -2,6 +2,14 @@
 
 The most important link is the wiki: https://support.vectorinstitute.ai/
 
+# MVE running a slurm job
+https://github.com/nng555/cluster_examples/blob/master/example_job.sh
+
+1. set up the environment correctly
+2. set up the paths correctly - where is output stored/piped? Recall, it should come back "as expected"
+
+https://github.com/nng555/cluster_examples/blob/master/example_job.sh
+
 # Shell commands:
 1. Eval is used to evaluate expressions. Essentially, allows dynamic code parsing (and then execution)
 
