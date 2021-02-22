@@ -10,7 +10,11 @@ The most important link is the wiki: https://support.vectorinstitute.ai/
 https://github.com/nng555/cluster_examples/blob/master/example_job.sh
 
 Note that srun and sbatch appear to have the same mechanisms - the environment is inherited from the calling script.
+
+## Example sbatch job descriptions and scripts:
 https://github.com/nng555/cluster_examples/blob/master/example_job.slrm
+https://github.com/johntiger1/lxmert_test/blob/master/src/tasks/language/sbatch_seq2seq.sh
+
 
 # Shell commands:
 1. Eval is used to evaluate expressions. Essentially, allows dynamic code parsing (and then execution)
