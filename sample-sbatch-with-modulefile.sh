@@ -14,3 +14,5 @@ module load pytorch-36
 (while true; do nvidia-smi; top -b -n 1 | head -20; sleep 10; done) &
 python /h/<<usermame>>/pytorch.py
 wait
+
+# credits to: https://support.vectorinstitute.ai/FAQ%20about%20the%20cluster
