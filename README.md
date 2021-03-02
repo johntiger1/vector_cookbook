@@ -23,6 +23,7 @@ https://github.com/SPOClab-ca/SickKids-LiverX/blob/main/grandproj.env
 for a simple modulefile.
 
 ```
+# module use /pkgs/environment-modules/
 (base) johnchen@v:~$ module load pytorch-36
 (base) johnchen@v:~$ module purge
 (base) johnchen@v:~$ module list
@@ -36,6 +37,17 @@ Currently Loaded Modules:
 
 Note: modulefiles are completely optional! You can simply source things in the traditional way `. bashrc file`, as in: 
 `https://github.com/nng555/cluster_examples/blob/master/example_job.sh#L4`
+
+## module use
+Where to find the possible modules to load
+
+## module load 
+Actually load a module in
+
+## module list
+List the possible modules you can load
+
+
 
 # Shell commands:
 1. Eval is used to evaluate expressions. Essentially, allows dynamic code parsing (and then execution)
