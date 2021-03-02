@@ -34,6 +34,9 @@ Currently Loaded Modules:
   1) pytorch-36
 ```
 
+Note: modulefiles are completely optional! You can simply source things in the traditional way `. bashrc file`, as in: 
+`https://github.com/nng555/cluster_examples/blob/master/example_job.sh#L4`
+
 # Shell commands:
 1. Eval is used to evaluate expressions. Essentially, allows dynamic code parsing (and then execution)
 
