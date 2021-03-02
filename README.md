@@ -47,7 +47,8 @@ Actually load a module in
 ## module list
 List the possible modules you can load
 
-
+## final thoughts
+Issues with CUDA etc. are independent of modules. But of course, you must ensure that GPU paths and other stuff is set up correctly.
 
 # Shell commands:
 1. Eval is used to evaluate expressions. Essentially, allows dynamic code parsing (and then execution)
