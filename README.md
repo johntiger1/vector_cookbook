@@ -67,7 +67,18 @@ Things are whitespace sensitive, make sure you are precise.
 `[[1 == 0]]`  => evaluates to True (this is just checking the expression is not null)
 as a ternary 
 
-##
+## Sanity check
+In order to sanity check, make sure to:
+1. set up environment
+2. run any of the commands
+
+This goes for sbatch/srun as well as conda and other envs. 
+```
+
+srun 
+```
+
+## Vaughan and MaRs
 A discussion on keeping vaughan synced with mars
 https://vectorinstitute.slack.com/archives/CAJ6QCM9C/p1589377802240700
 
