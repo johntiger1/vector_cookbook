@@ -50,6 +50,23 @@ List the possible modules you can load
 ## final thoughts
 Issues with CUDA etc. are independent of modules. But of course, you must ensure that GPU paths and other stuff is set up correctly. The `module load` is helpful since it means you don't have to manually control setting `export PATH=/pkgs/cuda-9.2/bin${PATH:+:${PATH}}` and `export LD_LIBRARY_PATH=/pkgs/cuda-9.2/lib64/${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}`, for instance.
 
+In particular, you MUST make sure you set these tricky interactions correctly. Therefore, try to use the built-in pytorches where available; and install other things on top of it.
+
+```
+
+(/h/johnchen/anaconda3_envs/sk-liver1) johnchen@v:~$ module avail
+
+------------------------------------------------------------ /pkgs/environment-modules ------------------------------------------------------------
+   cuda-11.0                    pytorch-1.3.1_cu100              pytorch1.7.1-cuda10.2-python3.6    tensorflow2-gpu-cuda10.1-conda-python3.6
+   cuda10.2+cudnn-10.2   (L)    pytorch-36                       pytorch1.7.1-cuda11.0-python3.6    vector_cv_project
+   mpich-3.3.2                  pytorch1.0-cuda9.0-python3.6     tensorflow-gpu-27                  virtualgl
+   nccl_2.6.4-1+cuda10.1        pytorch1.4-cuda10.1-python3.6    tensorflow-gpu-36
+
+  Where:
+   L:  Module is loaded
+
+```
+
 # Shell commands:
 1. Eval is used to evaluate expressions. Essentially, allows dynamic code parsing (and then execution)
 
