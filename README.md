@@ -48,7 +48,7 @@ Actually load a module in
 List the possible modules you can load
 
 ## final thoughts
-Issues with CUDA etc. are independent of modules. But of course, you must ensure that GPU paths and other stuff is set up correctly.
+Issues with CUDA etc. are independent of modules. But of course, you must ensure that GPU paths and other stuff is set up correctly. The `module load` is helpful since it means you don't have to manually control setting `export PATH=/pkgs/cuda-9.2/bin${PATH:+:${PATH}}` and `export LD_LIBRARY_PATH=/pkgs/cuda-9.2/lib64/${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}`, for instance.
 
 # Shell commands:
 1. Eval is used to evaluate expressions. Essentially, allows dynamic code parsing (and then execution)
