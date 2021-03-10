@@ -67,6 +67,8 @@ In particular, you MUST make sure you set these tricky interactions correctly. T
 
 ```
 
+Note that ultimately, we want to commit the modulefile/environment file for easy portability. But it is not expressly necesary.
+
 # Setting up jupyter notebook remotely
 To run jupyter notebook on the server, but be able to edit it from local, just do the following:
 
