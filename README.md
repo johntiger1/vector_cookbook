@@ -132,3 +132,5 @@ https://github.com/johntiger1/csc2547-project/blob/3d79547d0b4a66ab1148bf30c2176
 
 OK, so we need to configure the pycharm directory correctly. Probably an $__init__$, or adding a correct import, or correct path append somewhere! 
 
+# TODO
+For the future: https://support.vectorinstitute.ai/AboutVaughan2#Checkpoint.2FRestart
