@@ -67,6 +67,14 @@ In particular, you MUST make sure you set these tricky interactions correctly. T
 
 ```
 
+# Setting up jupyter notebook remotely
+To run jupyter notebook on the server, but be able to edit it from local, just do the following:
+
+`ssh  -L 9999:localhost:8888 johnchen@v.vectorinstitute.ai`
+
+This will port-forward 8888 on the remote machine to your local 9999. To access the jupyter notebook, simply visit 
+`localhost:9999` in the browser
+
 # Shell commands:
 1. Eval is used to evaluate expressions. Essentially, allows dynamic code parsing (and then execution)
 
