@@ -139,4 +139,4 @@ For the future: https://support.vectorinstitute.ai/AboutVaughan2#Checkpoint.2FRe
 
 
 # 2FA
-after adding 2FA to your account, you may need to [add a personal token](https://stackoverflow.com/a/34919582/6395770)
+After adding 2FA to your account, you may need to [add a personal token](https://stackoverflow.com/a/34919582/6395770)
