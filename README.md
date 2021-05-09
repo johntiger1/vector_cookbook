@@ -110,6 +110,8 @@ A discussion on keeping vaughan synced with mars
 https://vectorinstitute.slack.com/archives/CAJ6QCM9C/p1589377802240700
 
 # List of Useful Packages
+- glances
+- py3nvml
 - htop
 - gpustat -i
 - nvidia-smi
