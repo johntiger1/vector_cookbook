@@ -11,11 +11,15 @@ https://github.com/nng555/cluster_examples/blob/master/example_job.sh
 
 Note that srun and sbatch appear to have the same mechanisms - the environment is inherited from the calling script.
 
+
+
 ## Example sbatch job descriptions and scripts:
 https://github.com/nng555/cluster_examples/blob/master/example_job.slrm
 
 https://github.com/johntiger1/lxmert_test/blob/master/src/tasks/language/sbatch_seq2seq.sh
 
+## Using conda inside an sbatch job
+Depending on how it was set up, you may not be able to natively invoke `source activate ENV`
 
 # Using Modulefiles
 Modulefiles allow you to manage *system* environments. This includes setting the PATH for CUDA and other goodies. Please see this link: 
