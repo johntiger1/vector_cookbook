@@ -152,4 +152,10 @@ After adding 2FA to your account, you may need to [add a personal token](https:/
 Different partitions and QoS:
 https://support.vectorinstitute.ai/Vaughan_slurm_changes
 
+(for interactive, the only QoS is no-preemption)
+
 Also: half-life of your usage is 18 days; exponential decay for history of past usage
+
+And:
+put checkpoints into 
+`/checkpoint/$USER`
