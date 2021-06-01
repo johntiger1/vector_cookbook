@@ -146,3 +146,10 @@ For the future: https://support.vectorinstitute.ai/AboutVaughan2#Checkpoint.2FRe
 
 # 2FA
 After adding 2FA to your account, you may need to [add a personal token](https://stackoverflow.com/a/34919582/6395770)
+
+
+# Usage:
+Different partitions and QoS:
+https://support.vectorinstitute.ai/Vaughan_slurm_changes
+
+Also: half-life of your usage is 18 days; exponential decay for history of past usage
