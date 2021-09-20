@@ -16,3 +16,9 @@ The current workflow is good if set up correctly:
 2. `conda install <pkg>
 3. in the jupyter notebook, restart the kernel
 4. `import pkg` should work now
+
+
+# debugging in jupyter with pdb
+https://davidhamann.de/2017/04/22/debugging-jupyter-notebooks/
+
+Either use pdb and pdb.set_trace() OR use ipdb and `ipdb.set_trace()` (function from ipdb)
